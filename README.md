@@ -1,5 +1,5 @@
 # Roblox-Auto-PHP
-Automatically generate a PHP-Based Roblox Web API Wrapper. I doubt this is very safe so it is highly reccomended you don't use this in production without verifying each function first.
+Automatically generate a PHP-Based Roblox Web API Wrapper. I doubt this is very safe so it is highly recommended you don't use this in production without verifying each function first.
 
 ## How this works
 This simple program scrapes Roblox's Swagger.io docs for their info, and then generates a file that allows you to communicate with the endpoints easily. It takes seconds to generate the file.
