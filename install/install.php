@@ -81,7 +81,7 @@ $ret = "class roblox {
         }
     }
 ";
-$ret = $ret . substr(file_get_contents("curl.php"), 6);
+$ret = $ret . substr(file_get_contents("curl.txt"), 6);
 
 $query = "";
 $ret_key = 0;
