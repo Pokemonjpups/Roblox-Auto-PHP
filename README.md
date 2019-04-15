@@ -35,3 +35,7 @@ var_dump($roblox->getv1groupmembership(1));
 array(2) { ["data"]=> string(755) "{"groupId":1,"isPrimary":false,"isPendingJoin":false,"userRole":{"user":null,"role":{"id":231,"name":"Guest","rank":0,"memberCount":0}},"maxGroups":0,"permissions":{"groupPostsPermissions":{"viewWall":true,"postToWall":false,"deleteFromWall":false,"viewStatus":false,"postToStatus":false},"groupMembershipPermissions":{"changeRank":false,"inviteMembers":false,"removeMembers":false},"groupManagementPermissions":{"manageRelationships":false,"manageClan":false,"viewAuditLogs":false},"groupEconomyPermissions":{"spendGroupFunds":false,"advertiseGroup":false,"createItems":false,"manageItems":false,"addGroupPlaces":false,"manageGroupGames":false,"viewGroupPayouts":false}},"areGroupGamesVisible":false,"areGroupFundsVisible":false,"areEnemiesAllowed":true}" ["statuscode"]=> int(200) }
 */
 ```
+
+## Todo:
+* Hopefully add camelCasing or at least underscores to function names to make them less confusing
+* Add support for undocumented endpoints (manually, of course)
