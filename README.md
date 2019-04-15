@@ -7,8 +7,8 @@ This simple program scrapes Roblox's Swagger.io docs for their info, and then ge
 ## Installation Instructions
 If you don't want to run the script yourself, you can just download roblox.php and require it into your project. If you want to install the program yourself, however, continue with the installation instructions.
 
-1. Download `install.php`
-2. Run `php install.php` (or visit it from the web)
+1. Download the `install` folder
+2. Upload it to your server and run `php install.php` (or visit it from the web)
 3. Once it's done loading, a file will be generated called `roblox_[timestamp].txt`. It's reccomended you check for syntax errors, and then change the file extension to `.php`.
 4. `require` the script into wherever you need it. When calling the new class, you can optinally enter a .ROBLOSECURITY for authentication. Without it, all requests you make won't be authenticated. View some examples below for more info.
 
