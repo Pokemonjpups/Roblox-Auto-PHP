@@ -39,3 +39,4 @@ array(2) { ["data"]=> string(755) "{"groupId":1,"isPrimary":false,"isPendingJoin
 ## Todo:
 * Hopefully add camelCasing or at least underscores to function names to make them less confusing
 * Add support for undocumented endpoints (manually, of course)
+* Add support for `application/x-www-form-urlencoded` (only supports url parameters, json arrays, and path at the moment)
